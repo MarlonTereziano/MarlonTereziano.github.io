@@ -217,6 +217,12 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
 
     nav {flex: 1 1 240px;}
 
+    .logo {
+        width: 30px;
+        height: 60px;
+        flex: 1 1 20px;
+    }
+
 
     nav ul li a {
         display: block;
@@ -227,7 +233,8 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
         border: 3px solid rgb(0, 0, 0);
         border-radius: 5px;
         transition: all .5s ease-in-out;
-        font-size: 10px;
+        font-size: 12px;
+        font-weight: bold;
     }
 
     a {
