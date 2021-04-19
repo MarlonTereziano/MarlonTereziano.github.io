@@ -220,7 +220,7 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
     .logo {
         width: 30px;
         height: 60px;
-        flex: 1 1 20px;
+        flex: 0 1 60px;
     }
 
 
