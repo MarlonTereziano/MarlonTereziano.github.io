@@ -27,7 +27,12 @@ span {font-size: 1.5em;}
 
 a {text-decoration: none; color: rgb(0, 0, 0)}
 
-p {font-size: 1.25em; line-height: 1.4em;}
+p {font-size: 1.25em; line-height: 1.4em;
+    margin: 0;
+    text-indent: 3ch;
+      
+
+}
 
 .container {
     width: 1300px;
