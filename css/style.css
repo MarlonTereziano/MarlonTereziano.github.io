@@ -234,9 +234,6 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
 }
 
 
-.
-
-
 /*Media Screen*/
 @media screen and (max-width: 500px) {
 
@@ -244,7 +241,30 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
 
     nav {flex: 1 1 240px;}
 
+    h1{
+    
+        font-size: 2rem;
+        text-align: center;
+
+    }
+    
+    .nome{
+        font-size:1.5rem;
+        text-align: center;
+    }
+
+    h1.nome::after {
+        content: "";
+
+        height: 5px;
+        background-color: #000;
+        margin-left: -10px;
+        margin-: -10px;
+
+    }
+
     .logo {
+        margin-left: -10px;
         width: 30px;
         height: 60px;
         flex: 0 1 60px;
@@ -256,13 +276,14 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
         text-align:center;
         padding: 8px;
         color: rgb(0, 0, 0);
-        font-size: large;
         border: 3px solid rgb(0, 0, 0);
         border-radius: 5px;
         transition: all .5s ease-in-out;
-        font-size: 12px;
+        font-size: 1em;
         font-weight: bold;
+        
     }
+
 
     a {
         text-decoration: none; color: rgb(0, 0, 0);
@@ -272,12 +293,24 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
 
     
 
-    nav ul li {width: 32%; margin: 5px auto;}
+    nav ul li {
+        width: 33%;
+    }
+
+    nav ul{
+        border-right: 0;
+        width: 105%;
+    }
 
     .foto {
         width: 200px;
         height: 200px;
         margin: 0 auto;
         border-radius: 50%;
+    }
+
+    .bo{
+        display: block;
+        font-display:initial;
     }
 }

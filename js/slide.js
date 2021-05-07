@@ -1,3 +1,5 @@
+/*
+
 $('.rslides').responsiveSlides({
     auto: false,             
     speed: 500,           
@@ -7,3 +9,5 @@ $('.rslides').responsiveSlides({
 $(function() {
     $(".rslides").responsiveSlides();
 });
+
+*/
