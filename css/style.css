@@ -259,7 +259,7 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
         height: 5px;
         background-color: #000;
         margin-left: -10px;
-        margin-: -10px;
+        margin: -10px;
 
     }
 
