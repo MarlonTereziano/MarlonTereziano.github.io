@@ -257,9 +257,10 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
         content: "";
 
         height: 5px;
+        width: display;
         background-color: #000;
         margin-left: -10px;
-        margin: -10px;
+        margin-bottom: -20px;
 
     }
 
@@ -291,6 +292,9 @@ p.paragrafo + p.paragrafo {margin: 15px 0;}
         
     }
 
+    h2{
+        border-top: 5px;
+    }
     
 
     nav ul li {
