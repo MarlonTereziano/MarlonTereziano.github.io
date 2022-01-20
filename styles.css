@@ -242,6 +242,7 @@ img{max-width: 100%}
 
 @media screen and (max-width: 1080px){
     body{
+        overflow: hidden;
         margin-top: 10vh;
         margin-left: -5vw;
     }
