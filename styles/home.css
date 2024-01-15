@@ -1,8 +1,17 @@
+@font-face {
+    font-family: 'sf-pro';
+    src: url('/assets/fonts/SF-Pro.ttf');
+}
+
+*{
+    font-family: 'sf-pro';
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: white;
     width: 100vw;    
-    margin: 0;
-    padding: 0;
 }
 
 header{
@@ -20,8 +29,7 @@ header button{
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 1.5rem;
-    margin: 0 5px 0 5px;
+    margin: 0 10px 0 10px;
 }
 
 header button a{
@@ -29,10 +37,88 @@ header button a{
     background-color: transparent;
     border: none;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1rem;
     text-decoration: none;
     font-weight: lighter;
 }
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2.5rem;
+    height: 60vh;
+    background-color: #F5F5F7;
+    margin: 2.5rem 10px 0 10px;
+}
+
+.about h1{
+    position: absolute;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 10vh;
+}
+
+.about img{
+    width: 30vh;
+    margin-top: 21vh;
+}
+
+.services{
+    margin: 10px 10px 0 10px;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.services .services-container{
+    width: 49.7%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;;
+}
+
+.services .services-container h1{
+    position: absolute;
+    margin-top: -18vh;
+    font-weight: 400;
+}
+
+.services .contact-container{
+    display: flex;
+    width: 49.7%;
+    background-color: #F5F5F7;
+    height: 100%;
+    border-radius: 10px;
+}
+
+.services .services-items{
+    margin-top: 5vh;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.services-items img{
+    width: 120px;
+}
+
+.services-items .design{
+    width: 60px;
+}
+
+.services-items .fullstack{
+    margin-top: -5px;
+}
+
+
 
 
 
