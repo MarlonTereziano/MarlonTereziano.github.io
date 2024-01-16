@@ -238,7 +238,7 @@ header button a {
 .image-container div{
     position: absolute;
     margin-right: -100vw;
-    width: 100%;
+    width: 40vw;
 }
 
 .image-container h1{
@@ -261,3 +261,36 @@ header button a {
     font-weight: lighter;
     font-size: 20px;
 }
+
+@media (max-aspect-ratio: 4/2.8){
+    .projects{
+        width: 98%;
+    }
+    .projects img{
+        width: 50vw;
+    }
+
+    .projects .header-projects{
+        width: 100vw;
+    }
+    .projects .header-projects button{
+        margin: 0 15px 0 15px;
+    }
+    .image-container div{
+        position: relative;
+        margin-right: 0;
+        margin-bottom: 30px;
+        width: 95%;
+    }
+}
+
+/* @media (max-width: 630px){
+    .projects .header-projects button{
+        background-color: green;
+
+    }
+    .projects .header-projects button a{
+        font-size: 2vw;
+        background-color: red;
+    }
+} */
