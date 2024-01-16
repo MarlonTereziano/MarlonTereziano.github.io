@@ -264,10 +264,10 @@ header button a {
 
 @media (max-aspect-ratio: 4/2.8){
     .projects{
-        width: 98%;
+        width: 96%;
     }
     .projects img{
-        width: 50vw;
+        width: 70vw;
     }
 
     .projects .header-projects{
@@ -282,6 +282,46 @@ header button a {
         margin-bottom: 30px;
         width: 95%;
     }
+
+    .about h1{
+        font-size: 20px;
+        width: 40vw;
+    }
+
+    .about h1 p{
+        font-size: 12px;
+    }
+
+    .services .services-container h1{
+        font-size: 16px;
+    }
+    .services .contact-container h1{
+        font-size: 16px;
+    }
+    .services .services-items{
+        width: 100%;
+    }
+
+    .services .services-items img{
+        width: 50px;
+     }
+
+    .services .services-items .design{
+        width: 25px;
+     }
+
+     .services .contact-items{
+         width: 100%;
+     }
+ 
+     .services .contact-items img{
+         width: 30px;
+      }
+      .talk{
+        font-size: 20px;
+    }
+ 
+    
 }
 
 /* @media (max-width: 630px){
