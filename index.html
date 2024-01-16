@@ -60,7 +60,7 @@
         </div>
     </div>
 
-    <div class="findmore-container">
+    <div class="findmore-container" id="find-out">
         <h1 class="talk">
             Find out more about &nbsp
             <span>
@@ -69,34 +69,20 @@
         </h1>
     </div>
 
-    <div class="header-projects">
-        <button id="button-portal">
-            <a href="#">Portal Ativamente</a>
-        </button>
-        <button id="button-oficina">
-            <a href="#">Oficina do código</a>
-        </button>
-        <button id="button-tickets">
-            <a href="#">Tickets</a>
-        </button>
+    <div class="projects">
+        <div class="header-projects">
+            <button id="button-portal">
+                <a href="#button-portal">Portal Ativamente</a>
+            </button>
+            <button id="button-oficina">
+                <a href="#button-oficina">Oficina do código</a>
+            </button>
+            <button id="button-tickets">
+                <a href="#button-tickets">Tickets</a>
+            </button>
+        </div>
     </div>
 
-    <!-- Contêiner para a imagem -->
-    <div id="image-container"></div>
-
-    <script>
-        document.getElementById('button-portal').addEventListener('click', function () {
-            document.getElementById('image-container').innerHTML = '<img src="/assets/img/portal.png" alt="Ativamente">';
-        });
-
-        document.getElementById('button-oficina').addEventListener('click', function () {
-            document.getElementById('image-container').innerHTML = '<img src="/assets/img/oficina.png" alt="MIA">';
-        });
-
-        document.getElementById('button-tickets').addEventListener('click', function () {
-            document.getElementById('image-container').innerHTML = '<img src="/assets/img/tickets.png" alt="Portal de Jogos">';
-        });
-    </script>
 
 </body>
 
