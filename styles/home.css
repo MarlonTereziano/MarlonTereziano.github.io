@@ -190,6 +190,7 @@ header button a {
     align-items: flex-start;
     justify-content: center;
     color: #1d1d1f;
+    width: 49%;
 }
 
 .header-projects{
@@ -210,8 +211,8 @@ header button a {
 .header-projects button a{
     color: #1d1d1f;
     text-decoration: none;
-    font-size: 15px;
-    font-weight: 200;
+    font-size: 16px;
+    font-weight: 300;
 }
 
 .header-projects button a:hover{
@@ -219,4 +220,44 @@ header button a {
     text-decoration: underline;
     text-underline-offset: 2.8vh; 
     font-weight: 400;
+}
+
+.image-container{
+    margin-top: 17vh;
+    position: absolute;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-container img{
+    width: 80vh;
+}
+
+.image-container div{
+    position: absolute;
+    margin-right: -100vw;
+    width: 100%;
+}
+
+.image-container h1{
+    font-weight: 500;
+}
+
+.image-container .ativamente{
+    color: #6e6e73;
+}
+
+.image-container .oficina{
+    color: #6bca4e;
+}
+
+.image-container .tickets{
+    color: #F35F7E;
+}
+
+.image-container p{
+    font-weight: lighter;
+    font-size: 20px;
 }

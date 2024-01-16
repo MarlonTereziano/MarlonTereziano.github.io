@@ -62,26 +62,44 @@
 
     <div class="findmore-container" id="find-out">
         <h1 class="talk">
-            Find out more about &nbsp
+            Conheça melhor meus&nbsp
             <span>
-                my projects!
+                projetos!
             </span>
         </h1>
     </div>
 
     <div class="projects">
         <div class="header-projects">
-            <button id="button-portal">
-                <a href="#button-portal">Portal Ativamente</a>
-            </button>
             <button id="button-oficina">
                 <a href="#button-oficina">Oficina do código</a>
+            </button>
+            <button id="button-portal">
+                <a href="#button-portal">Ativamente</a>
             </button>
             <button id="button-tickets">
                 <a href="#button-tickets">Tickets</a>
             </button>
         </div>
+        <!-- Contêiner para a imagem -->
+        <div class="image-container" id="image-container"></div> 
+
     </div>
+
+
+    <script>
+        document.getElementById('button-portal').addEventListener('click', function (event) {
+            document.getElementById('image-container').innerHTML = '<div> <h1 class="ativamente">Ativamente</h1> <br> <p>Co-fundador e CTO do Ativamente - Startup da Editora A Recreativa - projeto de educação que atende mais de 12.000 crianças e adolescentes em operação ativa na rede pública brasileira e outras 6.000 em laboratórios experimentais em 3 estados distintos brasileiros.</p> </div> <img src="/assets/img/portal.png" alt="Portal Ativamente"> ';
+        });
+
+        document.getElementById('button-oficina').addEventListener('click', function (event) {
+            document.getElementById('image-container').innerHTML = '<div> <h1 class="oficina">Oficina do Código</h1> <br> <p>Idealizador e desenvolvedor do projeto Oficina do Código - Plataforma em desenvolvimento para introdução no ensino de programação para crianças, focada em ser o mais simples possível, evitando barreiras iniciais de entrada em plataformas mais complexas como Scratch ou Code.org, mas ainda sim abortando aspectos como a programação em blocos, lógica de comparadores, laços, etc. A plataforma é integrada com a Google Blockly.</p> </div> <img src="/assets/img/oficina.png" alt="Oficina do código">';
+        });
+
+        document.getElementById('button-tickets').addEventListener('click', function (event) {
+            document.getElementById('image-container').innerHTML = '<div> <h1 class="tickets">Mb. Tickets</h1> <br> <p>Conceito de plataforma para venda e gerenciamento de ingressos feito para a empresa Mb. Labs. O Projeto foi desenvolvido em NEXT com a linguagem de programação JavaScript + o Superset de ferramentas TypeScript.</p> </div> <img src="/assets/img/tickets.png" alt="Tickets">';
+        });
+    </script>
 
 
 </body>
