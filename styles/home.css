@@ -174,8 +174,49 @@ header button a {
     color: #F35F7E;
 }
 
-.projects {
-    height: 40vh;
+.findmore-container {
+    height: 10vh;
     background-color: #F5F5F7;
-    margin: 0 10px 0 10px;
+    margin:10px 10px 0 10px;
+    border-radius: 10px;
+}
+
+.projects{
+    height: 96vh;
+    background-color: #F5F5F7;
+    margin:10px 10px 0 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    color: #1d1d1f;
+}
+
+.header-projects{
+    margin-top: 2vh;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px solid #d2d2d7;
+    width: 70vw;
+    height: 7vh;
+}
+
+.header-projects button{
+    background-color: transparent;
+    border: none;
+    margin: 0 50px 0 50px;
+}
+
+.header-projects button a{
+    color: #1d1d1f;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.header-projects button a:hover{
+    color: #1d1d1f;
+    text-decoration: underline;
+    text-underline-offset: 2.6vh; 
+    font-weight: 400;
 }
