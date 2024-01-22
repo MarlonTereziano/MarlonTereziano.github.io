@@ -1,10 +1,11 @@
 @font-face {
     font-family: 'sf-pro';
-    src: url('/assets/fonts/SF-Pro.ttf');
+    src: url('/assets/fonts/SF-Pro.otf');
 }
 
 * {
     font-family: 'sf-pro';
+    letter-spacing: -0.5px;
     margin: 0;
     padding: 0;
 }
@@ -55,7 +56,7 @@ header button a {
 
 .about h1 {
     font-size: 2vw;
-    font-weight: 400;
+    font-weight: 500;
     margin-top: 5vh;
     color: #1d1d1f;
     width: 30%;
@@ -65,7 +66,7 @@ header button a {
 
 .about h1 p {
     font-size: 1.3vw;
-    font-weight: lighter;
+    font-weight: 100;
 }
 
 .about h1 span {
@@ -100,7 +101,7 @@ header button a {
 .services .services-container h1 {
     position: absolute;
     margin-top: -14vh;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.5vw;
 }
 
@@ -140,7 +141,7 @@ header button a {
 .services .contact-container h1 {
     margin-top: -14vh;
     position: absolute;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 1.5vw;
 }
 
@@ -219,7 +220,6 @@ header button a {
     color: #1d1d1f;
     text-decoration: underline;
     text-underline-offset: 2.8vh; 
-    font-weight: 400;
 }
 
 .image-container{
