@@ -101,7 +101,7 @@ header button a {
 .services .services-container h1 {
     position: absolute;
     margin-top: -14vh;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5vw;
 }
 
@@ -141,7 +141,7 @@ header button a {
 .services .contact-container h1 {
     margin-top: -14vh;
     position: absolute;
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.5vw;
 }
 
@@ -168,7 +168,7 @@ header button a {
     justify-content: center;
     height: 9vh;
     font-size: 2vw;
-    font-weight: 400;
+    font-weight: 300;
 }
 
 .talk span {
